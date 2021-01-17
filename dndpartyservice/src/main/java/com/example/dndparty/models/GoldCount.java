@@ -1,9 +1,14 @@
 package com.example.dndparty.models;
 
+
+
 public class GoldCount {
 
+
     private String memberID;
+
     private int goldCount;
+
 
     public GoldCount(){
     }
@@ -28,4 +33,10 @@ public class GoldCount {
     public void setGoldCount(int goldCount) {
         this.goldCount = goldCount;
     }
-}
+
+    }
+
+
+
+
+

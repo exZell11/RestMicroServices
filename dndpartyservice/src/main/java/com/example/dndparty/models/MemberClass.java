@@ -1,8 +1,13 @@
 package com.example.dndparty.models;
 
+
 public class MemberClass {
+
     private String memberID;
+
+
     private String memberClass;
+    private String id;
 
     public MemberClass(){
 
@@ -27,6 +32,10 @@ public class MemberClass {
 
     public void setMemberClass(String memberClass) {
         this.memberClass = memberClass;
+    }
+
+    public String getId() {
+        return id;
     }
 
 }

@@ -1,7 +1,7 @@
-package com.example.dndpartynames.resources;
+package com.example.DndPartyGoldCount.resources;
 
-import com.example.dndpartynames.models.GoldCount;
-import com.example.dndpartynames.models.UserGoldCount;
+import com.example.DndPartyGoldCount.models.GoldCount;
+import com.example.DndPartyGoldCount.models.UserGoldCount;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,8 +18,8 @@ public class GoldCountResource {
         return new GoldCount(memberID, 500);
     }
 
-    @RequestMapping("users/{userId}")
-    public UserGoldCount getUserGoldCount(@PathVariable("userId") String userId){
+    @RequestMapping("users/")
+    public UserGoldCount getUserGoldCount(){
         List<GoldCount> goldCounts = Arrays.asList(
                 new GoldCount("Egolas", 500),
                 new GoldCount("Illphelkiir", 150)

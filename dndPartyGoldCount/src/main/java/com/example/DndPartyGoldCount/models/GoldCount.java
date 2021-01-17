@@ -1,4 +1,4 @@
-package com.example.dndpartynames.models;
+package com.example.DndPartyGoldCount.models;
 
 public class GoldCount {
 

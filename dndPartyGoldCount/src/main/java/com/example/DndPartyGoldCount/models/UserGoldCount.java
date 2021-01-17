@@ -1,6 +1,7 @@
-package com.example.dndpartynames.models;
+package com.example.DndPartyGoldCount.models;
 
 import java.util.List;
+
 
 public class UserGoldCount {
 

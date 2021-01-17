@@ -18,8 +18,8 @@ public class MemberResource {
     public MemberClass getMemberHistory(@PathVariable("memberId") String memberId){
         return new MemberClass(memberId, "Rogue");
     }
-    @RequestMapping("users/{userId}")
-    public UserMemberClass getUserMemberClass(@PathVariable("userId") String userId){
+    @RequestMapping("users/")
+    public UserMemberClass getUserMemberClass(){
         List<MemberClass> memberClasses = Arrays.asList(
                 new MemberClass("Egolas", "Rogue"),
                 new MemberClass("Illphelkiir", "Druid")
